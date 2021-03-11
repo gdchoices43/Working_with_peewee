@@ -15,7 +15,7 @@ students = [
     {"username": "kennethlove",
      "points": 4888},
     {"username": "tylerduvall",
-     "points": 7153},
+     "points": 7711},
     {"username": "chalkers",
      "points": 11912},
     {"username": "craigsdennis",

@@ -51,7 +51,7 @@ def menu_loop():
         for key, value in menu.items():
             # Then we are gonna print out the key and the values ex: key= A)  value= Add an entry
             print("{}) {}".format(key, value.__doc__))
-        # Asking the user to choose an option and lowercase it and strip it
+        # Asking the user to choose an option,we also lowercase it and strip it
         choice = input("Action: ").lower().strip()
 
         # We check if it's "q" if it's not "q" we come back to our menu, we find the function
@@ -67,8 +67,8 @@ def add_entry():
     """Add an entry."""
     # Message to user of how to complete the entry when finished, with EOF key sequence ctrl+d
     print("Enter your entry. Press ctrl+d when finished.")
-    # Creating a variable to read all the content coming in and striping it of all the white space on either
-    # side of it
+    # Creating a variable to read all the content coming in and striping it of all the white space on
+    # either side of it
     data = sys.stdin.read().strip()
 
     # If there is data input from the user
